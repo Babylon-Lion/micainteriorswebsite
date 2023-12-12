@@ -27,12 +27,12 @@ const Navbar = () => {
             </Link>
          </li>
          <li className="body-text text-gradient_blue-purple !font-bold">
-            <Link href="#commercial" target="_blank">
+            <Link href="https://elegancewallpaper.com" target="_blank">
             Residential
             </Link>
          </li>
          <li className="body-text !font-normal">
-            <Link href="#commercial" target="_blank">
+            <Link href="#contact">
             Contact
             </Link>
          </li>

@@ -24,7 +24,7 @@ const Page = () => {
      <Testimonials />
      <h2 className="flex w-full justify-center items-center font-extrabold text-3xl text-white">Past Projects</h2>
      <Projects />
-     <Estimate />
+     <Estimate/>
      
     </>
   )
