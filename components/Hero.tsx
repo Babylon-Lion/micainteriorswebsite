@@ -43,15 +43,15 @@ const Hero = () => {
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Check Designs" 
+            title="Get an Estimate" 
             variant="btn_gradient" 
           />
-          <Button 
+          {/* <Button 
             type="button" 
             title="How we work?" 
             icon="/play.svg"
             variant="btn_white_text" 
-          />
+          /> */}
         </div>
       </div>
 
