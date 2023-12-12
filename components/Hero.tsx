@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Button from './Button'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -40,7 +41,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
+        <Link href="#contact" className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
             title="Get an Estimate" 
@@ -52,7 +53,7 @@ const Hero = () => {
             icon="/play.svg"
             variant="btn_white_text" 
           /> */}
-        </div>
+        </Link>
       </div>
 
       <div className="relative flex flex-1 items-start">
