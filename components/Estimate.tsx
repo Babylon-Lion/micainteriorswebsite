@@ -8,8 +8,11 @@ const Estimate = () => {
         <div className='flex flex-col h-auto w-full p-10 text-white justify-center items-center'>
           <h2 className='flex justify-center text-4xl font-black my-5'>Over 150k Design</h2>
            <h2 className='justify-center font-bold my-5'>Choose Mica Interiors for Quality Wallcoverings</h2>
+           <p className="text-4xl font-black my-10">721 Carnarvon St., New Westminster, BC V3M 1E6</p>
            <p className="text-4xl font-black my-10">+1(833)-586-1220</p>
            <p className="text-2xl font-black my-10">contact@micainteriors.com</p>
+           
+
            {/* <Button 
             type="button" 
             title="Call Us Today" 
