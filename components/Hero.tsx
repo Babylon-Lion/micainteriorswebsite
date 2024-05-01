@@ -15,11 +15,13 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Where Walls Whisper Elegance & Vision Meets Wallpaper</h1>
+        <h1 className="bold-52 lg:bold-88">Welcome to Mica Interiors Inc, Your Premier Wallpaper Store in Lower Mainland BC</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-        where walls become canvases of dreams. Our curated designs and expert craftsmanship transform spaces into a symphony of 
-        elegance. Immerse yourself in a world where every detail speaks the language of sophistication. Elevate your surroundings 
-        with Mica, where inspiration meets innovation, and your home becomes a masterpiece
+        At Mica Interiors Inc, we transform walls into works of art. We are your trusted supplier and installer of high-quality 
+        residential, commercial, and marine wallcoverings in Lower Mainland BC. Our wide range of curated designs and our commitment 
+        to expert craftsmanship turn any space into an elegant showcase. Experience the sophistication that every detail of our 
+        wallpapers brings to your surroundings. With Mica, you’re not just decorating a space, you’re creating a masterpiece. 
+        Discover the difference with Mica Interiors Inc, where quality meets style, and your vision comes to life
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
