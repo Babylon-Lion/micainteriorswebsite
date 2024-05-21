@@ -14,7 +14,7 @@ const Page = () => {
   return (
     <>
      <Hero />
-     <h2 className="flex w-full justify-center items-center font-extrabold text-3xl text-white">Our Partners</h2>
+     <h2 className="flex w-full justify-center items-center pt-14 font-extrabold text-3xl text-white">Our Partners</h2>
      <Partners />
      
      {/* <Experts /> */}

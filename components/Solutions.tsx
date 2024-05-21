@@ -3,7 +3,7 @@ import React from 'react'
 
 const Solutions = () => {
   return (
-    <section className='grid gap-8 md:grid-cols-2 max-w-6xl justify-center mx-auto'>
+    <section className='grid gap-8 md:grid-cols-2 max-w-6xl justify-center mx-auto pt-14'>
       <div className='flex h-full w-full items-center justify-center mx-auto'>
          <Image 
          src="/custom-solutions-dark.png"

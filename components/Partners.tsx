@@ -1,56 +1,31 @@
+import Image from 'next/image'
+import React from 'react'
 
-import Image from "next/image";
-
-interface PartnerProps {
-   backgroundImage: string; 
-    
-}
-const Partner = ({ backgroundImage }: PartnerProps) => {
+function Partners() {
   return (
-    <div className={`h-[135px] w-full ${backgroundImage} bg-no-repeat`}>
-      
-    </div>
-  )
-}
-const Partners = () => {
-  return (
-    <section className="text-white w-2/3 mx-auto relative flex flex-col py-10 lg:py-20 xl:mb-20 justify-center">
-      
-     
-      <div className="flex h-[135px] min-h-[135px] w-full
-      items-center justify-center gap-8 overflow-x-auto">
-     
-         <Partner 
-         backgroundImage="bg-bg-scotia"
-          />
-         <Partner 
-         backgroundImage="bg-bg-rbc"
-       />
-        <Partner 
-         backgroundImage="bg-bg-bmo"
-       />
-        <Partner 
-         backgroundImage="bg-bg-purelife"
-       />
-        <Partner 
-         backgroundImage="bg-bg-wrm"
-       />
-        <Partner 
-         backgroundImage="bg-bg-onni"
-       />
-       <Partner 
-         backgroundImage="bg-bg-onSite"
-       />
-      </div>
-    </section>
+    <div className='flex p-10'>
+<div className="flex overflow-hidden space-x-16">
+  <div className="flex space-x-16 animate-loop-scroll">
+    <Image loading="lazy" height={100} width={170} src="/Scotiabank_Logo.png" alt="Scotia Bank" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={190} src="/Rbc-logo.png" alt="RBC - Royal Bank of Canada" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={200} src="/bmo-logo.png" alt="BMO - Bank of Montreal" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={210} src="/purelife-logo.png" alt="Purelife Physiotherapy" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={200} src="/wrm-logo.png" alt="WRM Strata Management" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={190} src="/onni-logo.png" alt="Onni Group" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={180} src="/onSite-logo.png" alt="OnSite Construction" className="max-w-none"/>
+  </div>
+  <div className="flex space-x-16 animate-loop-scroll" aria-hidden="true">
+    <Image loading="lazy" height={100} width={170} src="/Scotiabank_Logo.png" alt="Scotia Bank" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={190} src="/Rbc-logo.png" alt="RBC - Royal Bank of Canada" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={200} src="/bmo-logo.png" alt="BMO - Bank of Montreal" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={210} src="/purelife-logo.png" alt="Purelife Physiotherapy" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={200} src="/wrm-logo.png" alt="WRM Strata Management" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={190} src="/onni-logo.png" alt="Onni Group" className="max-w-none"/>
+    <Image loading="lazy" height={100} width={180} src="/onSite-logo.png" alt="OnSite Construction" className="max-w-none"/>
+  </div>
+</div>
+</div>
   )
 }
 
 export default Partners
-{/* <Image 
-      src="/scotia.jpg"
-      alt="Scotia Bank -Whistler"
-      width={100}
-      height={70}
-      className="rounded-xl"
-      /> */}
