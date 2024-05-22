@@ -18,7 +18,7 @@ const Cost = () => {
       </div>
       <div className='flex h-full w-full items-center justify-center mx-auto'>
          <Image 
-         src="/cost-effective.png"
+         src="/micainteriors_warehouse.jpg"
          alt="custom solutions"
          height={350}
          width={350}
