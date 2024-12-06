@@ -15,7 +15,7 @@ const Experts = () => {
         />
         <h1 className="flex justify-start text-2xl font-bold">Meet Our Expert Team</h1>
         <p>
-            75 Years of Combined Experience, Dedicated teams both in BC and Ontario for Commercial Wallcovering
+            75 Years of Combined Experience, Dedicated teams both in BC and Ontario for Wall Finishing
         </p>
         <Button variant="default" className="w-1/3 justify-start text-center">Get Started</Button>
     </div>

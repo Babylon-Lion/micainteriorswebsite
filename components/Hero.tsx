@@ -15,13 +15,9 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Welcome to Mica Interiors Inc, Your Premier Wallpaper Store in Lower Mainland BC</h1>
+        <h1 className="bold-52 lg:bold-88">Welcome to Mica Interiors Inc, Your Premier Interior Finishing Company in Canada</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-        At Mica Interiors Inc, we transform walls into works of art. We are your trusted supplier and installer of high-quality 
-        residential, commercial, and marine wallcoverings in Lower Mainland BC. Our wide range of curated designs and our commitment 
-        to expert craftsmanship turn any space into an elegant showcase. Experience the sophistication that every detail of our 
-        wallpapers brings to your surroundings. With Mica, you’re not just decorating a space, you’re creating a masterpiece. 
-        Discover the difference with Mica Interiors Inc, where quality meets style, and your vision comes to life
+        We specialize in transforming spaces with precision and creativity, offering exceptional craftsmanship and innovative solutions for residential, commercial, and institutional projects. Let us bring your vision to life with unparalleled attention to detail and a commitment to excellence.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -63,10 +59,10 @@ const Hero = () => {
 
            <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">#No.1</p>
+              <p className="regular-16 text-gray-20">The Leading</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Wallpaper Installer</p>
+            <p className="bold-20 text-white">Wall Finishing Company</p>
           </div>
 
           <div className="flexBetween">

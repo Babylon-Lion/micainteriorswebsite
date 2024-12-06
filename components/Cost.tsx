@@ -1,5 +1,5 @@
+
 import Image from 'next/image'
-import React from 'react'
 
 const Cost = () => {
   return (
@@ -28,5 +28,4 @@ const Cost = () => {
     </section>
   )
 }
-
 export default Cost
